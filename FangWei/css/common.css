@@ -1,0 +1,43 @@
+html, body, figure, dl, dd, img, form, div, ul, ol, li, h1, h2, h3, h4, h5, h6, p, button, input, textarea, a, span, em {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body {
+	font-family: 'Microsoft Yahei';
+	font-size: 12px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+	letter-spacing: 0.5px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+img{
+	width: 100%;
+	border: 0px;
+	vertical-align: middle;
+}
+.clearfix::after{
+	display:block;
+	clear:both;
+	height:0;
+	content:' ';
+}
+.clearfix{
+	zoom: 1;
+}

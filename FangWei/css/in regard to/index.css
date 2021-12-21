@@ -1,0 +1,441 @@
+.chart {
+  width: 100%;
+  height: 860px;
+  position: relative;
+  transition: all ease 0.5s;
+  text-align: center;
+  padding-top: 70px;
+}
+.chart .img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.chart .img img {
+  max-width: initial;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chart .index-data {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 7.8%;
+}
+.chart .index-data .index-data-list {
+  width: 100%;
+  padding: 120px 0 0;
+  margin: 0 auto;
+}
+.chart .index-data .index-data-list ul .item {
+  float: left;
+  width: 33.33%;
+  height: 280px;
+}
+.chart .index-data .index-data-list ul .item .item-inner {
+  position: relative;
+  height: 280px;
+  text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.chart .index-data .index-data-list ul .item .item-inner .text-wrap {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  transform: translateY(-50%);
+}
+.chart .index-data .index-data-list ul .item .item-inner .text-wrap .number-wrap {
+  display: block;
+  font: normal 100px/1 'AkzidenzGrotesk-BoldCondAlt';
+  color: #fff;
+  letter-spacing: 2px;
+}
+.chart .index-data .index-data-list ul .item .item-inner .text-wrap .number-wrap .icon {
+  display: inline-block;
+  font-size: 72px;
+  vertical-align: 13px;
+}
+.chart .index-data .index-data-list ul .item .border {
+  border: 0;
+}
+.chart .index-data .index-data-list ul .item .bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.major {
+  width: 100%;
+}
+.major .major1 {
+  width: 100%;
+  height: 625px;
+  text-align: center;
+  padding-top: 70px;
+}
+.major .major1 .title {
+  font-size: 48px;
+  line-height: 66px;
+  color: #222;
+  font-weight: bold;
+}
+.major .major1 .txt {
+  width: 900px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 28px;
+  color: #222;
+  margin-top: 22px;
+}
+.major .major1 .icon {
+  margin-top: 40px;
+}
+.major .major1 .icon img {
+  max-width: 100%;
+  width: auto;
+}
+.major .major2 {
+  width: 100%;
+  height: 800px;
+  background: url(../../images/abg1.jpg) center center no-repeat;
+  background-size: auto;
+  background-size: auto 100%;
+  text-align: center;
+  padding: 100px 7.8% 0;
+}
+.major .major2 .title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  line-height: 1;
+}
+.major .major2 .txt {
+  width: 620px;
+  margin: 23px auto 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.major .major2 .certificate {
+  width: 100%;
+  position: relative;
+  padding: 0 80px;
+  margin-top: 133px;
+}
+.major .major2 .certificate .next,
+.major .major2 .certificate .prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.major .major2 .certificate .next {
+  background: url(../../images/aicon2.png) center center no-repeat;
+  right: 0;
+}
+.major .major2 .certificate .next:hover {
+  border: 2px solid #000;
+  background: #000 url(../../images/aicon2.png) center center no-repeat;
+}
+.major .major2 .certificate .prev {
+  background: url(../../images/aicon1.png) center center no-repeat;
+  left: 0;
+}
+.major .major2 .certificate .prev:hover {
+  border: 2px solid #000;
+  background: #000 url(../../images/aicon1.png) center center no-repeat;
+}
+.major .major3 {
+  width: 100%;
+  display: table;
+  margin-top: 10px;
+}
+.major .major3 .tbox {
+  width: 50%;
+  float: left;
+  padding-left: 7.8%;
+  padding-top: 207px;
+}
+.major .major3 .tbox .title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1;
+}
+.major .major3 .tbox .txt {
+  width: 80%;
+  font-size: 14px;
+  line-height: 28px;
+  color: #222;
+  margin-top: 20px;
+}
+.major .major3 .tbox .more {
+  margin-top: 72px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  background: url(../../images/aicon4.png) center center no-repeat;
+  display: block;
+  transition: all ease 0.5s;
+}
+.major .major3 .tbox .more:hover {
+  background: #222 url(../../images/aicon3.png) center center no-repeat;
+}
+.major .major3 .img {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  cursor: pointer;
+}
+.major .major3 .img img {
+  width: 100%;
+  transition: all ease 1s;
+}
+.major .major3 .img:hover img {
+  transform: scale(1.05);
+}
+.major .major4 {
+  width: 100%;
+  display: table;
+  margin-top: 10px;
+  background: #f4f4f4;
+}
+.major .major4 .img {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.major .major4 .img img {
+  width: 100%;
+  transition: all ease 1s;
+}
+.major .major4 .img:hover img {
+  transform: scale(1.05);
+}
+.major .major4 .tbox {
+  width: 50%;
+  padding: 207px 0 0 7.8%;
+  float: right;
+}
+.major .major4 .tbox .title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1;
+}
+.major .major4 .tbox .more {
+  margin-top: 72px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  background: url(../../images/aicon4.png) center center no-repeat;
+  display: block;
+  transition: all ease 0.5s;
+}
+.major .major4 .tbox .more:hover {
+  background: #222 url(../../images/aicon3.png) center center no-repeat;
+}
+.major .major5 {
+  width: 100%;
+  height: 343px;
+  text-align: center;
+  padding-top: 80px;
+}
+.major .major5 .title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+.major .major5 .txt {
+  font-size: 16px;
+  line-height: 28px;
+  color: #222;
+  margin-top: 22px;
+}
+.major .major5 .link {
+  width: 161px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 27px;
+  background: #2e9ec2 url(../../images/aicon5.png) 108px center no-repeat;
+  display: block;
+  margin: 42px auto 0;
+  text-align: left;
+  padding-left: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+@media (max-width: 1370px) {
+  .chart {
+    height: 580px;
+    padding-top: 50px;
+  }
+  .chart .img img {
+    width: 100%;
+  }
+  .chart .index-data .index-data-list {
+    padding: 60px 0 0;
+  }
+  .chart .index-data .index-data-list ul .item {
+    height: 200px;
+  }
+  .chart .index-data .index-data-list ul .item .item-inner {
+    height: 200px;
+  }
+  .major .major3 .tbox {
+    padding-top: 107px;
+  }
+  .major .major4 .tbox {
+    padding: 107px 0 0 7.8%;
+  }
+}
+@media (max-width: 1200px) {
+  .chart .index-data .index-data-list {
+    width: 100%;
+    padding: 110px 30px;
+  }
+  .major .major3 .tbox {
+    padding-top: 80px;
+  }
+  .major .major3 .tbox .more {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 960px) {
+  .number-wrap {
+    font: normal 70px/1 'AkzidenzGrotesk-BoldCondAlt' !important;
+  }
+}
+@media (max-width: 900px) {
+  .chart .index-data .index-data-list {
+    padding: 25px 0 0;
+  }
+  .major .major1 .txt {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .major .major3 .tbox {
+    padding-top: 30px;
+  }
+  .major .major3 .tbox .title {
+    font-size: 26px;
+  }
+  .major .major3 .tbox .txt {
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  .major .major4 .tbox {
+    padding: 68px 0 0 7.8%;
+  }
+  .major .major4 .tbox .title {
+    font-size: 26px;
+  }
+  .major .major4 .tbox .more {
+    margin-top: 40px;
+    width: 45px;
+    height: 45px;
+  }
+  .major .major5 .title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .chart {
+    height: 460px;
+  }
+  .chart .index-data .index-data-list ul .item {
+    height: 200px;
+  }
+  .chart .index-data .index-data-list ul .item .item-inner {
+    height: 160px;
+  }
+  .chart .index-data .index-data-list ul .item .item-inner .text-wrap .number-wrap {
+    font: normal 24px/1 'AkzidenzGrotesk-BoldCondAlt' !important;
+  }
+  .chart .index-data .index-data-list ul .item .item-inner .text-wrap .number-wrap .icon {
+    width: 28px;
+    font: normal 24px/1 'AkzidenzGrotesk-BoldCondAlt' !important;
+    vertical-align: bottom;
+  }
+  .major .major1 {
+    height: 540px;
+  }
+  .major .major1 .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .major .major1 .txt {
+    line-height: 22px;
+  }
+  .major .major1 .icon {
+    width: 60%;
+    margin: 40px auto 0;
+  }
+  .major .major2 {
+    width: 100%;
+    height: 500px;
+    padding: 80px 7.8% 0;
+  }
+  .major .major2 .title {
+    font-size: 26px;
+  }
+  .major .major2 .txt {
+    width: 100%;
+  }
+  .major .major2 .certificate {
+    padding: 0px 50px;
+    margin-top: 50px;
+  }
+  .major .major2 .certificate .next {
+    width: 40px;
+    height: 40px;
+  }
+  .major .major2 .certificate .prev {
+    width: 40px;
+    height: 40px;
+  }
+  .major .major3 .tbox {
+    width: 100%;
+    padding: 30px;
+  }
+  .major .major3 .img {
+    width: 100%;
+  }
+  .major .major4 {
+    width: 100%;
+    float: right;
+  }
+  .major .major4 .img {
+    width: 100%;
+    float: right;
+  }
+  .major .major4 .tbox {
+    width: 100%;
+    float: left;
+    padding: 50px 0 50px 7.8%;
+  }
+  .major .major5 .txt {
+    padding: 0 30px;
+    line-height: 22px;
+  }
+  .major .major5 .link {
+    line-height: 40px;
+    height: 40px;
+    border-radius: 27px;
+    margin: 25px auto 0;
+  }
+}

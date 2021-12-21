@@ -1,0 +1,251 @@
+.banner {
+  width: 100%;
+  height: 540px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+.banner .img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.banner .img img {
+  max-width: initial;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner .box {
+  position: relative;
+  max-width: 1600px;
+  height: 100%;
+  z-index: 2;
+  margin: auto;
+  color: #fff;
+  padding-top: 275px;
+  letter-spacing: 2px;
+  transition: all ease 0.5s;
+}
+.banner .box .t1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+.banner .box .t2 {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 12px;
+}
+.banner .box .breadcrumbs {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  line-height: 60px;
+  font-size: 14px;
+  color: #7e7e7e;
+  letter-spacing: 2px;
+  padding-left: 25px;
+  background: url(../../images/icon23.png) left center no-repeat;
+  z-index: 1000;
+}
+.banner .box .breadcrumbs a {
+  color: #7e7e7e;
+  transition: all ease 0.3s;
+}
+.banner .box .breadcrumbs a:hover {
+  color: #fff;
+}
+.banner .box .breadcrumbs span {
+  color: #fff;
+}
+.banner .menu {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.banner .menu ul {
+  max-width: 1600px;
+  margin: auto;
+  padding-top: 13px;
+  position: relative;
+  z-index: 5;
+}
+.banner .menu ul li {
+  float: left;
+  margin-right: 3px;
+}
+.banner .menu ul li a {
+  font-size: 14px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0 20px;
+  display: block;
+  transition: all ease 0.3s;
+  border-radius: 15px;
+}
+.banner .menu ul li:hover a {
+  color: #222;
+  background: #fff;
+}
+.banner .menu ul .on a {
+  color: #222;
+  background: #fff;
+}
+.case {
+  width: 100%;
+  background: #f7f7f7;
+}
+.case .box {
+  max-width: 1600px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+.case .box .case-list {
+  width: 100%;
+  display: table;
+  padding: 40px 0 10px;
+}
+.case .box .case-list ul li {
+  width: 23%;
+  float: left;
+  margin-right: 1.33%;
+  margin-bottom: 20px;
+}
+.case .box .case-list ul li a .images {
+  width: 100%;
+  overflow: hidden;
+}
+.case .box .case-list ul li a .images img {
+  width: 100%;
+  max-width: 100%;
+}
+.case .box .case-list ul li a .tbox {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+  border-top: none;
+  padding: 20px 20px 16px;
+  background: #fff;
+}
+.case .box .case-list ul li a .tbox .title {
+  width: 100%;
+  position: relative;
+  line-height: 36px;
+}
+.case .box .case-list ul li a .tbox .title .t1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+.case .box .case-list ul li a .tbox .title .t2 {
+  font-size: 14px;
+  color: #666;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+}
+.case .box .case-list ul li a .tbox .title .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.case .box .case-list ul li a .tbox .title .icon span {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  margin-left: 10px;
+}
+.case .box .case-list ul li a .tbox .title .icon .icon1 {
+  background: url(../../images/icon19.png) center center no-repeat;
+}
+.case .box .case-list ul li a .tbox .title .icon .icon2 {
+  background: url(../../images/icon18.png) center center no-repeat;
+}
+@media (max-width: 1660px) {
+  .banner .box {
+    margin: 0 30px;
+  }
+  .banner .menu {
+    padding-left: 30px;
+  }
+  .case .box {
+    padding: 0 30px 80px;
+  }
+}
+@media (max-width: 1370px) {
+  .banner {
+    height: 380px;
+  }
+  .banner .box {
+    padding-top: 193px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner .box .t1 {
+    font-size: 36px;
+  }
+  .banner .box .breadcrumbs {
+    display: none;
+  }
+  .banner .menu ul {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+  }
+  .case .box .case-list ul li {
+    width: 31%;
+    margin-right: 2%;
+  }
+}
+@media (max-width: 900px) {
+  .banner .box .t1 {
+    font-size: 24px;
+  }
+  .banner .menu {
+    height: 50px;
+    padding-left: 15px;
+  }
+  .case {
+    padding: 0 30px 50px;
+  }
+  .case .box .case-list ul li {
+    width: 46%;
+    margin-right: 4%;
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    height: 360px;
+  }
+  .banner .box {
+    padding-top: 150px;
+  }
+  .banner .box .t1 {
+    font-size: 20px;
+  }
+  .banner .box .t2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .case .box {
+    padding: 0 20px 50px;
+  }
+  .case .box .case-list {
+    margin-top: 30px;
+  }
+  .case .box .case-list ul li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
